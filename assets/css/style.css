@@ -695,10 +695,15 @@ small {
 
 /* Certifications Section Image Styling */
 #certifications .card-content img {
-  max-width: 120px;
-  max-height: 120px;
-  width: auto; /* Allow natural width if smaller than max-width */
-  height: auto; /* Allow natural height if smaller than max-height */
+  display: block;
+  width: 120px;
+  height: 120px;
   margin: 0 auto 10px auto; /* Center horizontally and add bottom margin */
   object-fit: contain; /* Ensure the entire image is visible without cropping */
+}
+
+#certifications .card-content .card-title {
+  display: block;
+  line-height: 1.5rem;
+  margin-top: 10px;
 }
