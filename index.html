@@ -28,15 +28,20 @@
       object-fit: contain;
     }
     /* Styles for consistent skill icon alignment on all screen sizes */
+    #skills .card .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     #skills .card .row .col {
+      float: none !important;
       display: flex;
       flex-direction: column;
       align-items: center; /* Center items horizontally */
-      justify-content: center; /* Center items vertically within the column */
+      justify-content: flex-start; /* Align icons to the top */
       text-align: center; /* Ensure text is centered */
-      min-height: 120px; /* Provide a minimum height for consistent card appearance */
-      padding-top: 10px; /* Add some top padding */
-      padding-bottom: 10px; /* Add some bottom padding */
+      min-height: 120px;
+      padding: 10px 5px;
     }
 
     #skills .card .row .col img {
@@ -45,6 +50,13 @@
       max-width: 100%;
       object-fit: contain;
       margin-bottom: 8px; /* Space between icon and text */
+    }
+
+    @media only screen and (max-width: 600px) {
+      #skills .card .row .col {
+        font-size: 0.8rem; /* Smaller font for long labels like 'AWS CodePipeline' on mobile */
+        min-height: 150px; /* Extra height to accommodate wrapped text on mobile */
+      }
     }
   </style>
   <title>Prasad Thite | DevOps Engineer</title>
