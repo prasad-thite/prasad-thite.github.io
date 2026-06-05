@@ -434,47 +434,94 @@
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
-          <div class="col s12 m12 l12">
-            <div class="card">
+
+          <!-- Project 1: EKS Migration -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="EKS Migration" src="assets/img/project-eks.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
               <div class="card-content">
-                <span class="card-title"><a href="#projects" class="teal-text hoverline">AWS CDK to Terraform Migration & Multi-Tenant EKS Transformation</a></span>
+                <span class="card-title activator teal-text hoverline">EKS Transformation<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Migrating IaC from AWS CDK to Terraform and implementing Multi-Tenant EKS architecture.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Migrated Infrastructure as Code from AWS CDK (Python) to Terraform using reusable and modular components.</li>
-                  <li>Redesigned the platform from a single-tenant architecture (one EKS cluster per customer) to a multi-tenant Amazon EKS architecture supporting multiple customers on a shared cluster.</li>
-                  <li>Implemented tenant isolation, automated provisioning, and CI/CD integration to improve scalability and operational efficiency.</li>
-                  <li>Optimized infrastructure utilization, reduced management overhead, and enabled faster onboarding of new customers.</li>
+                  <li><b>Tools:</b> Terraform, EKS, Kubernetes, Helm</li>
+                  <li>Migrated IaC from AWS CDK (Python) to Terraform with modular components.</li>
+                  <li>Redesigned platform to a multi-tenant Amazon EKS architecture.</li>
+                  <li>Implemented tenant isolation and automated provisioning.</li>
+                  <li>Optimized resource utilization and reduced management overhead.</li>
                 </ul>
-                <p><b>Tech Stack:</b> Terraform, AWS EKS, Kubernetes, AWS Services, Helm, CI/CD</p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/prasad-thite"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col s12 m12 l12">
-            <div class="card">
+          <!-- Project 2: CI/CD Automation -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="CI/CD Pipeline" src="assets/img/project-cicd.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
               <div class="card-content">
-                <span class="card-title"><a href="#projects" class="teal-text hoverline">Automated CI/CD Pipeline for Microservices</a></span>
+                <span class="card-title activator teal-text hoverline">CI/CD Automation<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Robust CI/CD pipelines for 20+ microservices using GitLab CI and Jenkins.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Designed and implemented robust CI/CD pipelines using GitLab CI and Jenkins for over 20+ microservices, enabling rapid and reliable delivery.</li>
-                  <li>Integrated automated security scanning with SonarQube and container vulnerability assessments into the build process to ensure secure code promotion.</li>
-                  <li>Reduced deployment cycle time by 75% through optimized parallel execution and Docker image caching strategies.</li>
-                  <li>Configured automated rollback mechanisms based on post-deployment health check failures, significantly improving environment stability.</li>
+                  <li><b>Tools:</b> Jenkins, GitLab CI, Docker, SonarQube</li>
+                  <li>Implemented pipelines for 20+ microservices using GitLab CI and Jenkins.</li>
+                  <li>Integrated SonarQube scanning and container vulnerability assessments.</li>
+                  <li>Reduced deployment cycle time by 75% via parallel execution.</li>
                 </ul>
-                <p><b>Tech Stack:</b> Jenkins, GitLab CI, Docker, SonarQube, Python, Bash, AWS CodePipeline</p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/prasad-thite"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col s12 m12 l12">
-            <div class="card">
+          <!-- Project 3: Observability Stack -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Observability" src="assets/img/project-observability.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
               <div class="card-content">
-                <span class="card-title"><a href="#projects" class="teal-text hoverline">Enterprise Observability & Monitoring Implementation</a></span>
+                <span class="card-title activator teal-text hoverline">Observability Stack<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Centralized observability stack using Prometheus, Grafana, and ELK.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Deployed a centralized observability stack using Prometheus, Grafana, and the ELK (Elasticsearch, Logstash, Kibana) stack for cluster-wide visibility.</li>
-                  <li>Created comprehensive real-time dashboards for monitoring EKS cluster health, application performance metrics, and infrastructure costs.</li>
-                  <li>Implemented advanced alerting strategies via Alertmanager and PagerDuty, reducing Mean Time to Recovery (MTTR) by approximately 40%.</li>
-                  <li>Established log aggregation and distributed tracing to troubleshoot bottlenecks in complex microservice communication flows.</li>
+                  <li><b>Tools:</b> Prometheus, Grafana, ELK, New Relic</li>
+                  <li>Deployed Prometheus, Grafana, and ELK stack for cluster visibility.</li>
+                  <li>Reduced MTTR by 40% using advanced alerting via Alertmanager.</li>
+                  <li>Established distributed tracing for microservices.</li>
                 </ul>
-                <p><b>Tech Stack:</b> Prometheus, Grafana, ELK Stack, AWS CloudWatch, New Relic, Alertmanager</p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/prasad-thite"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
               </div>
             </div>
           </div>
