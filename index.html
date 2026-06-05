@@ -27,6 +27,25 @@
       max-width: 100%;
       object-fit: contain;
     }
+    /* Styles for consistent skill icon alignment on all screen sizes */
+    #skills .card .row .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically within the column */
+      text-align: center; /* Ensure text is centered */
+      min-height: 120px; /* Provide a minimum height for consistent card appearance */
+      padding-top: 10px; /* Add some top padding */
+      padding-bottom: 10px; /* Add some bottom padding */
+    }
+
+    #skills .card .row .col img {
+      height: 64px; /* Fixed height for all skill icons for visual consistency */
+      width: auto; /* Maintain aspect ratio */
+      max-width: 100%;
+      object-fit: contain;
+      margin-bottom: 8px; /* Space between icon and text */
+    }
   </style>
   <title>Prasad Thite | DevOps Engineer</title>
 
@@ -403,35 +422,6 @@
           <div class="card-content">
             <div class="row">
               <div class="col s12 m2">
-                <a href="#" target="_blank"><img alt="Adsul Technical Campus logo"
-                    src="assets/img/exp-adsul-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#" target="_blank"
-                      class="teal-text hoverline">Adsul Technical Campus</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">System Administrator</div>
-            <ul>
-              <li>Setup of various kinds of OS like Windows, Unix, Debian, Ubuntu, CentOS, RedHat...etc.</li>
-              <li>Improved online exam support efficiency by 30% by orchestrating technical assistance strategies.</li>
-              <li>Set up and maintained LAN and DNS for 200 PCs, enhancing lab connectivity and performance.</li>
-              <li><b>Tools:</b> Linux, Windows, DHCP, DNS, AD, System Administration. </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Oct 2015 - May 2018 | Ahilyanagar</span>
-          </div>
-        </div>
-
-
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
                 <a href="https://www.aforeserve.co.in" target="_blank"><img alt="Aforeserve logo"
                     src="assets/img/exp-aforeserve-logo.png" class="responsive-img center-block" /></a>
               </div>
@@ -452,6 +442,33 @@
           </div>
           <div class="card-action">
             <span>April 2018 - May 2019 | Pune, India</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="#" target="_blank"><img alt="Adsul Technical Campus logo"
+                    src="assets/img/exp-adsul-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank"
+                      class="teal-text hoverline">Adsul Technical Campus</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">System Administrator</div>
+            <ul>
+              <li>Setup of various kinds of OS like Windows, Unix, Debian, Ubuntu, CentOS, RedHat...etc.</li>
+              <li>Improved online exam support efficiency by 30% by orchestrating technical assistance strategies.</li>
+              <li>Set up and maintained LAN and DNS for 200 PCs, enhancing lab connectivity and performance.</li>
+              <li><b>Tools:</b> Linux, Windows, DHCP, DNS, AD, System Administration. </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Oct 2015 - May 2018 | Ahilyanagar</span>
           </div>
         </div>
       </div>
