@@ -320,7 +320,7 @@ h3 {
 /* Original */
 
 #intro.section {
-  background: url(../../assets/img/image.png) no-repeat top center/cover;
+  background: url(../../assets/img/backg2.jpg) no-repeat top center/cover;
   position: relative;
 }
 
@@ -330,7 +330,7 @@ h3 {
 } */
 
 #intro.section .container {
-  color: white;
+  color: rgb(5, 0, 0);
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -353,21 +353,27 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #0d7337;
 }
 
-#intro.section .teal {
+/* #intro.section .teal {
   padding: 0 10px;
+} */
+
+#intro.section .prname {
+  background-color: #ffffff;
+  padding: 0 10px;
+  border-radius: 5px;
 }
 
-.overlay {
+/* .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-}
+} */
 
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
