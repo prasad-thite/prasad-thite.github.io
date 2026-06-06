@@ -730,7 +730,7 @@ small {
 
 /* Certifications Section Styling */
 #certifications .card {
-  min-height: 250px;
+  min-height: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -746,8 +746,8 @@ small {
 
 #certifications .card-content img {
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 15px auto;
   object-fit: contain;
 }
